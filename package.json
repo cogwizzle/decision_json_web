@@ -4,6 +4,8 @@
   "description": "View for decision json files.",
   "main": "dist/index.html",
   "scripts": {
+    "build": "webpack --watch",
+    "start:dev" : "asdf -p 8080 -d dist",
     "test": "jest"
   },
   "repository": {
@@ -30,11 +32,16 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "jest": "^22.4.3",
-    "webpack": "^4.5.0"
+    "require-dir": "^1.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
   },
   "dependencies": {
+    "file-system": "^2.2.2",
+    "import-modules": "^1.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-router": "^4.2.0"
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   }
 }
