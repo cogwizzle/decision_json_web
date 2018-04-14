@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import Buttons from './buttons';
+import ReactMarkdown from 'react-markdown';
 
 const styles = {
   ...Buttons,
@@ -32,7 +33,7 @@ export default props => {
 
   return (<div className='slide' style={styles.slide}>
     <div className='content' style={styles.content}>
-      {props.slide}
+      <ReactMarkdown source={props.slide} />
     </div>
     <div className='controls' style={styles.controls}>
       {(childLinks.length > 0) ? childLinks : <NavLink style={styles.buttons} to='/'>Back to Home</NavLink>}
