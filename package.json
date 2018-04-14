@@ -5,7 +5,7 @@
   "main": "dist/index.html",
   "scripts": {
     "build": "webpack --watch",
-    "start:dev" : "asdf -p 8080 -d dist",
+    "start:dev": "asdf -p 8080 -d dist",
     "test": "jest"
   },
   "repository": {
@@ -41,6 +41,7 @@
     "import-modules": "^1.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-markdown": "^3.3.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }
