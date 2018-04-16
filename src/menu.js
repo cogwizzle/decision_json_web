@@ -6,7 +6,7 @@ const styles = {
   ...Buttons,
   menu: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
   },
   wrapper: {
     display: 'flex',
