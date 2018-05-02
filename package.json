@@ -26,21 +26,21 @@
   "homepage": "https://github.com/jfehrman/decision_json_web#readme",
   "devDependencies": {
     "asdf": "^1.2.1",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "jest": "^22.4.3",
     "require-dir": "^1.0.0",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
   },
   "dependencies": {
     "file-system": "^2.2.2",
     "import-modules": "^1.1.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-markdown": "^3.3.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
