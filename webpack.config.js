@@ -6,7 +6,7 @@ var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
   mode: 'development',
-  entry: APP_DIR + '/app.js',
+  entry: ['babel-polyfill', APP_DIR + '/app.js'],
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
